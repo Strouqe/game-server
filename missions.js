@@ -17,7 +17,6 @@ function generateCharacteristics(dificulty) {
     let dexterity = Math.floor(Math.random() * 10) * (dificulty / 100) + 10 * (dificulty / 100);
     return { intelect, strength, dexterity };
 }
-// generate 6 missions. 2 of 100 dificulty, 2 of 200 dificulty and 2 of 300 dificulty and return them in one array
 function createMissions() {
     let missions = [];
     let characteristics;
