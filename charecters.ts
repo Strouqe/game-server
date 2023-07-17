@@ -17,7 +17,6 @@ export interface Characteristics {
 
 
 
-// formula that creates a array with 6 charecters with random stats
 export function createCharacters(): Charecter[] {
   let characters = []
   for (let i = 0; i < 6; i++) {
